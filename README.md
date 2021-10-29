@@ -1,9 +1,9 @@
 
 # Desafio para processo seletivo SHARENERGY 2021/22
 
-Video: https://youtu.be/MiJigUKabBQ
-Link de acesso da imagem do site: https://ibb.co/k0pKTLK
-Hospedagem:
+ - Video: https://youtu.be/MiJigUKabBQ
+ - Link de acesso da imagem do site: https://ibb.co/k0pKTLK
+ - Hospedagem:
 
 # Dependências
 
