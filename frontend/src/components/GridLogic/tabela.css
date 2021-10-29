@@ -1,0 +1,54 @@
+.style-table tbody tr td {
+  font-size: 1.6rem;
+  color: '#736E65';
+}
+
+.style-table th{
+  font-size: 1.6rem;
+}
+
+.style-table input {
+  height:3.2rem;
+  font-size: 1.6rem;
+
+}
+
+.style-table select{
+  color: '#736E65';
+  height:3.2rem;
+}
+
+.style-table  a{
+  font-size: 1.6rem;
+  height:3.2rem;
+}
+
+
+
+.page-link span {
+  color: '#736E65';
+  font-size: 1.6rem;
+  height:3.2rem;
+}
+
+
+
+.custom-select-sm{
+  font-size: 1.6rem;
+}
+
+.crud-style{
+  background-color:#c8ce27;
+  padding:10px;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+#ResultadosLogicos{
+  background-color:#199286;
+  padding:10px;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  margin-bottom: 0.8rem;
+}

@@ -1,4 +1,4 @@
-[
+export const dadosUsina = [
   {
     "tempo_h": 5.333333333333333,
     "tensao_V": 550.9,

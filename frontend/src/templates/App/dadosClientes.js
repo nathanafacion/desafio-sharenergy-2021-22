@@ -1,4 +1,4 @@
-[
+export const dadosClientes = [
     {
         "numeroCliente": 1,
         "nomeCliente": "Ana Silva",

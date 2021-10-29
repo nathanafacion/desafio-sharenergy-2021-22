@@ -1,0 +1,55 @@
+import styled, {css} from 'styled-components';
+import {Title as HeadingContainer} from '../Heading/styles';
+import {Container as TextComponent} from '../TextComponent/styles'
+
+export const Container = styled.div`
+  ${({theme }) => css`
+      ${TextComponent}{
+        margin-bottom: {$theme.spacings.xhuge};
+    }
+  `}
+`;
+
+export const Button = styled.div`
+  ${({theme}) => css`
+    position: relative;
+    display: inline;
+    padding-left:${theme.spacings.large};
+
+    clear:left;
+  `}
+`;
+
+export const Grid = styled.div`
+  ${({theme}) => css`
+    counter-reset: grid-counter;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    gap: ${theme.spacings.large};
+    overflow: hidden;
+    width: 100%;
+
+    @media ${theme.media.lteMedium}{
+      grid-template-columns:1fr;
+    }
+  `}
+`;
+
+export const GridElement = styled.div`
+    ${({theme}) => css`
+      ${HeadingContainer} {
+        position:relative;
+        padding-left: 30px;
+
+      }
+      ${HeadingContainer}::before{
+        counter-increment: grid-counter;
+        content: counter(grid-counter);
+        position: absolute;
+        font-size: 7rem;
+        left:-1rem;
+        top:-2rem;
+        transform: rotate(3deg);
+      }
+  `}
+`;

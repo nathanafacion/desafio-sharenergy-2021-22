@@ -1,0 +1,70 @@
+.table-styles {
+  overflow-x: auto;
+}
+.table-styles tbody tr td {
+  font-size: 1.6rem;
+  color: '#736E65';
+}
+
+.table-styles th{
+  font-size: 1.6rem;
+}
+
+.table-styles input {
+  display:block;
+  height:3.2rem;
+  font-size: 1.6rem;
+  padding-right:0.8rem;
+}
+
+.table-styles select{
+  color: '#736E65';
+  height:3.2rem;
+}
+
+.table-styles  a{
+  font-size: 1.6rem;
+  height:3.2rem;
+}
+
+
+
+.page-link span {
+  color: '#736E65';
+  font-size: 1.6rem;
+  height:3.2rem;
+  padding-left:0.8rem;
+}
+
+
+
+.custom-select-sm{
+  font-size: 1.6rem;
+
+}
+
+.crud-style{
+  background-color:#c8ce27;
+  padding:10px;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  margin-bottom: 0.8rem;
+  display:grid;
+
+}
+
+#ButtonCRUD{
+
+  height:3.2rem;
+  margin-top:2.8rem;
+  @media (min-width: 700px) {
+    clean:left;
+    float:left;
+  }
+}
+
+#InputNumeroCliente {
+  @media(max-width: 768px) {
+  padding-left:100%;
+}
+}
